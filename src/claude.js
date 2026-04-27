@@ -3,7 +3,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
 // Gemini 1.5 Flash: gratuito, 1500 requests/día, 1 millón tokens/min
-const MODEL = "gemini-1.5-flash";
+const MODEL = "gemini-1.5-flash-latest";
 
 const SYSTEM_PROMPT = `Sos un asistente financiero personal y de productividad integrado en WhatsApp. 
 El usuario te escribe mensajes en español rioplatense (argentino).
